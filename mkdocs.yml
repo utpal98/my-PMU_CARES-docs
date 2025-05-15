@@ -1,0 +1,15 @@
+site_name: PMU CARES Documentation
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - content.code.copy
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+
+nav:
+  - Home: index.md
+  - Reference: reference.md
